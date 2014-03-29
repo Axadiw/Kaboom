@@ -1,0 +1,253 @@
+{
+   "background" : {
+      "angle" : 0.0,
+      "color" : {
+         "a" : 255,
+         "b" : 255,
+         "g" : 255,
+         "r" : 255
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "is_active" : true,
+      "position" : {
+         "x" : 0.0,
+         "y" : 0.0
+      },
+      "scale" : 2.0,
+      "size" : {
+         "x" : 177.0,
+         "y" : 100.0
+      },
+      "texCorner" : {
+         "x" : 0.0,
+         "y" : 2304.0
+      },
+      "texDimensions" : {
+         "x" : 4096.0,
+         "y" : 4096.0
+      },
+      "texSize" : {
+         "x" : 1366.0,
+         "y" : 768.0
+      }
+   },
+   "brick_0" : {
+      "angle" : -0.0008583565941080451,
+      "color" : {
+         "a" : 255,
+         "b" : 255,
+         "g" : 255,
+         "r" : 255
+      },
+      "density" : 1.0,
+      "flipX" : false,
+      "flipY" : false,
+      "friction" : 0.50,
+      "is_active" : true,
+      "position" : {
+         "x" : -0.7480397820472717,
+         "y" : -9.326090812683106
+      },
+      "scale" : 2.0,
+      "size" : {
+         "x" : 5.701317787170410,
+         "y" : 5.598958492279053
+      },
+      "texCorner" : {
+         "x" : 1.0,
+         "y" : 18.0
+      },
+      "texDimensions" : {
+         "x" : 1024.0,
+         "y" : 1024.0
+      },
+      "texSize" : {
+         "x" : 44.0,
+         "y" : 43.0
+      }
+   },
+   "brick_1" : {
+      "angle" : -0.002914820099249482,
+      "color" : {
+         "a" : 255,
+         "b" : 255,
+         "g" : 255,
+         "r" : 255
+      },
+      "density" : 1.0,
+      "flipX" : false,
+      "flipY" : false,
+      "friction" : 0.50,
+      "is_active" : true,
+      "position" : {
+         "x" : -0.7422608733177185,
+         "y" : -8.1933593750
+      },
+      "scale" : 2.0,
+      "size" : {
+         "x" : 5.701317787170410,
+         "y" : 5.598958492279053
+      },
+      "texCorner" : {
+         "x" : 1.0,
+         "y" : 18.0
+      },
+      "texDimensions" : {
+         "x" : 1024.0,
+         "y" : 1024.0
+      },
+      "texSize" : {
+         "x" : 44.0,
+         "y" : 43.0
+      }
+   },
+   "brick_2" : {
+      "angle" : -0.004836531821638346,
+      "color" : {
+         "a" : 255,
+         "b" : 255,
+         "g" : 255,
+         "r" : 255
+      },
+      "density" : 1.0,
+      "flipX" : false,
+      "flipY" : false,
+      "friction" : 0.50,
+      "is_active" : true,
+      "position" : {
+         "x" : -0.7385272979736328,
+         "y" : -7.060445785522461
+      },
+      "scale" : 2.0,
+      "size" : {
+         "x" : 5.701317787170410,
+         "y" : 5.598958492279053
+      },
+      "texCorner" : {
+         "x" : 1.0,
+         "y" : 18.0
+      },
+      "texDimensions" : {
+         "x" : 1024.0,
+         "y" : 1024.0
+      },
+      "texSize" : {
+         "x" : 44.0,
+         "y" : 43.0
+      }
+   },
+   "brick_3" : {
+      "angle" : -0.006459101103246212,
+      "color" : {
+         "a" : 255,
+         "b" : 255,
+         "g" : 255,
+         "r" : 255
+      },
+      "density" : 1.0,
+      "flipX" : false,
+      "flipY" : false,
+      "friction" : 0.50,
+      "is_active" : true,
+      "position" : {
+         "x" : -0.6493474841117859,
+         "y" : -5.927635669708252
+      },
+      "scale" : 2.0,
+      "size" : {
+         "x" : 5.701317787170410,
+         "y" : 5.598958492279053
+      },
+      "texCorner" : {
+         "x" : 1.0,
+         "y" : 18.0
+      },
+      "texDimensions" : {
+         "x" : 1024.0,
+         "y" : 1024.0
+      },
+      "texSize" : {
+         "x" : 44.0,
+         "y" : 43.0
+      }
+   },
+   "brick_4" : {
+      "angle" : -0.007410232443362474,
+      "color" : {
+         "a" : 255,
+         "b" : 255,
+         "g" : 255,
+         "r" : 255
+      },
+      "density" : 1.0,
+      "flipX" : false,
+      "flipY" : false,
+      "friction" : 0.50,
+      "is_active" : true,
+      "position" : {
+         "x" : -0.6067628264427185,
+         "y" : -4.794292926788330
+      },
+      "scale" : 2.0,
+      "size" : {
+         "x" : 5.701317787170410,
+         "y" : 5.598958492279053
+      },
+      "texCorner" : {
+         "x" : 1.0,
+         "y" : 18.0
+      },
+      "texDimensions" : {
+         "x" : 1024.0,
+         "y" : 1024.0
+      },
+      "texSize" : {
+         "x" : 44.0,
+         "y" : 43.0
+      }
+   },
+   "brick_5" : {
+      "angle" : -0.007930197753012180,
+      "color" : {
+         "a" : 255,
+         "b" : 255,
+         "g" : 255,
+         "r" : 255
+      },
+      "density" : 1.0,
+      "flipX" : false,
+      "flipY" : false,
+      "friction" : 0.50,
+      "is_active" : true,
+      "position" : {
+         "x" : -0.5306823253631592,
+         "y" : -3.660695075988770
+      },
+      "scale" : 2.0,
+      "size" : {
+         "x" : 5.701317787170410,
+         "y" : 5.598958492279053
+      },
+      "texCorner" : {
+         "x" : 1.0,
+         "y" : 18.0
+      },
+      "texDimensions" : {
+         "x" : 1024.0,
+         "y" : 1024.0
+      },
+      "texSize" : {
+         "x" : 44.0,
+         "y" : 43.0
+      }
+   },
+   "bricksNum" : 6,
+   "dynamitesNum" : 1,
+   "levelName" : "Nowy poziom",
+   "secretVariable" : 123,
+   "victoryLine" : {
+      "x" : 0.0,
+      "y" : -46.0
+   }
+}

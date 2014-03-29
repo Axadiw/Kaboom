@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AE011F2C-D233-4C59-892F-517D9663A308}</ProjectGuid>
+    <RootNamespace>Game</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\PolyMT\Game\Box2D;C:\OpenCV\include;../../ArEngine/src;../../Engine/FMOD/inc;../../Engine/FTGL/include;../../Engine/FREETYPE/include;../../Engine/JSON/include;../../Engine/SDL/include;../../Engine/src;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\PolyMT\Game\Box2D\Debug;../../Engine/FMOD/lib;../../Engine/FREETYPE;../../Engine/FTGL;../../Debug;../../Engine/JSON;../../Engine/SDL/lib;../../Engine/SDL_image/lib;$(LibraryPath)</LibraryPath>
+    <ReferencePath>C:\OpenCV\bin;$(ReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\PolyMT\Game\Box2D;C:\OpenCV\include;../../ArEngine/src;../../Engine/FMOD/inc;../../Engine/FTGL/include;../../Engine/FREETYPE/include;C:\PolyMT\Engine\JSON\include;C:\PolyMT\Engine\SDL\include;C:\PolyMT\Engine\src;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\PolyMT\Game\Box2D\RelWithDebInfo;../../Engine/FMOD/lib;../../Engine/FREETYPE;../../Engine/FTGL;../../Engine/SDL_image/lib;C:\PolyMT\Release;C:\PolyMT\Engine\JSON;C:\PolyMT\Engine\SDL\lib;$(LibraryPath)</LibraryPath>
+    <ReferencePath>C:\OpenCV\bin;$(ReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>fmodex_vc.lib;Box2D.lib;freetype247MT_D.lib;ftgl_D.lib;C:\OpenCV\lib\opencv_core248d.lib;C:\OpenCV\lib\opencv_highgui248d.lib;C:\OpenCV\lib\opencv_video248d.lib;C:\OpenCV\lib\opencv_ml248d.lib;C:\OpenCV\lib\opencv_calib3d248d.lib;C:\OpenCV\lib\opencv_legacy248d.lib;C:\OpenCV\lib\opencv_imgproc248d.lib;SDL.lib;SDLmain.lib;json_vc71_libmdd.lib;Engine.lib;ArEngine.lib;SDL_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+      <IgnoreSpecificDefaultLibraries>msvcrt.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>fmodex_vc.lib;freetype247MT.lib;ftgl.lib;Box2D.lib;C:\OpenCV\lib\opencv_core248.lib;C:\OpenCV\lib\opencv_highgui248.lib;C:\OpenCV\lib\opencv_video248.lib;C:\OpenCV\lib\opencv_ml248.lib;C:\OpenCV\lib\opencv_calib3d248.lib;C:\OpenCV\lib\opencv_legacy248.lib;C:\OpenCV\lib\opencv_imgproc248.lib;SDL.lib;SDLmain.lib;json_vc71_libmd.lib;Engine.lib;ArEngine.lib;SDL_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Brick.cpp" />
+    <ClCompile Include="..\src\EditorState.cpp" />
+    <ClCompile Include="..\src\GameplayState.cpp" />
+    <ClCompile Include="..\src\GameSetup.cpp" />
+    <ClCompile Include="..\src\IntroState.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\MenuState.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Brick.h" />
+    <ClInclude Include="..\src\dirent.h" />
+    <ClInclude Include="..\src\EditorState.h" />
+    <ClInclude Include="..\src\GameplayState.h" />
+    <ClInclude Include="..\src\GameSetup.h" />
+    <ClInclude Include="..\src\includes.h" />
+    <ClInclude Include="..\src\IntroState.h" />
+    <ClInclude Include="..\src\MenuState.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

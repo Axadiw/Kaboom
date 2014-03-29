@@ -1,0 +1,197 @@
+{
+"rotate_step": 0.314159265358979323846,
+"brick_select_distance": 0.5,
+// drewno
+"brick1" : // mały kwadrat
+	{
+		"position":{"x":0,"y": 0},
+		"texCorner":{"x": 1, "y": 18},
+		"texSize":{"x": 44.0, "y": 43.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 2.0,
+		"friction" : 0.5,
+		"density" : 1.0
+	},
+"brick2" : // duży kwadrat
+	{
+		"position":{"x":0,"y": 0},
+		"texCorner":{"x": 136, "y": 17},
+		"texSize":{"x": 84.0, "y": 84.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 2.0,
+		"friction" : 0.5,
+		"density" : 1.0
+	},
+"brick3" : // mala deska
+	{
+		"position":{"x":0,"y": 0},
+		"texCorner":{"x": 2, "y": 110},
+		"texSize":{"x": 85.0, "y": 22.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 2.0,
+		"friction" : 0.5,
+		"density" : 1.0
+	},
+"brick4" : // średnia deska
+	{
+		"position":{"x":0,"y": 0},
+		"texCorner":{"x": 3, "y": 178},
+		"texSize":{"x": 168.0, "y": 21.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 2.0,
+		"friction" : 0.5,
+		"density" : 1.0
+	},
+"brick5" : // duża deska
+	{
+		"position":{"x":0,"y": 0},
+		"texCorner":{"x": 2, "y": 202},
+		"texSize":{"x": 205.0, "y": 21.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 2.0,
+		"friction" : 0.5,
+		"density" : 1.0
+	},
+// kamień
+"brick6" : // mały kwadrat
+	{
+		"position":{"x":0,"y": 0},
+		"texCorner":{"x": 1, "y": 61},
+		"texSize":{"x": 44.0, "y": 43.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 2.0,
+		"friction" : 0.7,
+		"density" : 5.0
+	},
+"brick7" : // duży kwadrat
+	{
+		"position":{"x":0,"y": 0},
+		"texCorner":{"x": 52, "y": 19},
+		"texSize":{"x": 84.0, "y": 84.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 2.0,
+		"friction" : 0.7,
+		"density" : 5.0
+	},
+"brick8" : // mały prostokąt
+	{
+		"position":{"x":0,"y": 0},
+		"texCorner":{"x": 4, "y": 132},
+		"texSize":{"x": 85.0, "y": 22.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 2.0,
+		"friction" : 0.7,
+		"density" : 5.0
+	},
+"brick9" : // średni prostokąt
+	{
+		"position":{"x":0,"y": 0},
+		"texCorner":{"x": 2, "y": 156},
+		"texSize":{"x": 170.0, "y": 22.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 2.0,
+		"friction" : 0.7,
+		"density" : 5.0
+	},
+"brick0" : // duży prostokąt
+	{
+		"position":{"x":0,"y": 0},
+		"texCorner":{"x": 2, "y": 224},
+		"texSize":{"x": 205.0, "y": 21.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 2.0,
+		"friction" : 0.7,
+		"density" : 5.0
+	},
+"PhysicOnText" : 
+	{     
+      "color" : { "a" : 255, "b" : 0, "g" : 255, "r" : 0},
+      "position" : {"x" : 155.0,"y" : -90.0},
+      "scale" : 10.0,
+      "text" : "Fizyka ON!"
+	},
+"background_num": 4,
+"background_0" : 
+	{
+		"position":{"x":0,"y": 0},
+		"texCorner":{"x": 0, "y": 0},
+		"texSize":{"x": 1366.0, "y": 768.0},
+		"texDimensions":{"x": 4096.0, "y": 4096.0},
+		"scale": 2.0
+	},
+"background_1" : 
+	{
+		"position":{"x":0,"y": 0},
+		"texCorner":{"x": 0, "y": 768},
+		"texSize":{"x": 1366.0, "y": 768.0},
+		"texDimensions":{"x": 4096.0, "y": 4096.0},
+		"scale": 2.0
+	},
+"background_2" : 
+	{
+		"position":{"x":0,"y": 0},
+		"texCorner":{"x": 0, "y": 1536},
+		"texSize":{"x": 1366.0, "y": 768.0},
+		"texDimensions":{"x": 4096.0, "y": 4096.0},
+		"scale": 2.0
+	},
+"background_3" : 
+	{
+		"position":{"x":0,"y": 0},
+		"texCorner":{"x": 0, "y": 2304},
+		"texSize":{"x": 1366.0, "y": 768.0},
+		"texDimensions":{"x": 4096.0, "y": 4096.0},
+		"scale": 2.0		
+	},
+"dynamites_num_text" :  { "color" : { "a" : 255, "b" : 0, "g" : 255, "r" : 200}, "position" : {"x" : 110.0,"y" : 93.0},
+      "scale" : 10.0, "text" : "Dynamit dostępny na poziomie: " },		
+"show_help" :  { "color" : { "a" : 255, "b" : 0, "g" : 255, "r" : 200}, "position" : {"x" : -175.0,"y" : 90.0},
+      "scale" : 10.0, "text" : "F1 - Pomoc" },		
+"status_text" :  { "color" : { "a" : 255, "b" : 0, "g" : 255, "r" : 200}, "position" : {"x" : -175.0,"y" : -95.0},
+      "scale" : 10.0, "text" : "" },	
+"help_text_lines": 13,
+"help_text_line_0" :  { "color" : { "a" : 255, "b" : 0, "g" : 255, "r" : 200}, "position" : {"x" : 0.0,"y" : 50.0},
+      "scale" : 10.0, "text" : "F1 : Pomoc" },
+"help_text_line_1" :  { "color" : { "a" : 255, "b" : 0, "g" : 255, "r" : 200}, "position" : {"x" : 0.0,"y" : 40.0},
+      "scale" : 10.0, "text" : "Q: Wróć do menu" },
+"help_text_line_2" :  { "color" : { "a" : 255, "b" : 0, "g" : 255, "r" : 200}, "position" : {"x" : 0.0,"y" : 30.0},
+      "scale" : 10.0, "text" : "0-9 : Dodaj klocek" },
+"help_text_line_3" :  { "color" : { "a" : 255, "b" : 0, "g" : 255, "r" : 200}, "position" : {"x" : 0.0,"y" : 20.0},
+      "scale" : 10.0, "text" : "X : Usuń klocek" },
+"help_text_line_4" :  { "color" : { "a" : 255, "b" : 0, "g" : 255, "r" : 200}, "position" : {"x" : 0.0,"y" : 10.0},
+      "scale" : 10.0, "text" : "Kółko myszy : Obróć klocek" },
+"help_text_line_5" :  { "color" : { "a" : 255, "b" : 0, "g" : 255, "r" : 200}, "position" : {"x" : 0.0,"y" : 0.0},
+      "scale" : 10.0, "text" : "Spacja : Włącz/wyłącz fizykę" },
+"help_text_line_6" :  { "color" : { "a" : 255, "b" : 0, "g" : 255, "r" : 200}, "position" : {"x" : 0.0,"y" : -10.0},
+      "scale" : 10.0, "text" : "B: Zmień tło" },
+"help_text_line_7" :  { "color" : { "a" : 255, "b" : 0, "g" : 255, "r" : 200}, "position" : {"x" : 0.0,"y" : -20.0},
+      "scale" : 10.0, "text" : "C: Usuń wszystkie klocki" },
+"help_text_line_8" :  { "color" : { "a" : 255, "b" : 0, "g" : 255, "r" : 200}, "position" : {"x" : 0.0,"y" : -30.0},
+      "scale" : 10.0, "text" : "S: Zapisz do pliku" },
+"help_text_line_9" :  { "color" : { "a" : 255, "b" : 0, "g" : 255, "r" : 200}, "position" : {"x" : 0.0,"y" : -40.0},
+      "scale" : 10.0, "text" : "L: Wczytaj z pliku" },
+"help_text_line_10" :  { "color" : { "a" : 255, "b" : 0, "g" : 255, "r" : 200}, "position" : {"x" : 0.0,"y" : -50.0},
+      "scale" : 10.0, "text" : "E: Wybuch (fizyka musi być włączona!)" },
+"help_text_line_11" :  { "color" : { "a" : 255, "b" : 0, "g" : 255, "r" : 200}, "position" : {"x" : 0.0,"y" : -60.0},
+      "scale" : 10.0, "text" : "+/- : Zmień ilość dynamitu dostępnego na poziomie" },
+"help_text_line_12" :  { "color" : { "a" : 255, "b" : 0, "g" : 255, "r" : 200}, "position" : {"x" : 0.0,"y" : -70.0},
+      "scale" : 10.0, "text" : "Strzałka w górę/w dół: Zmiana poziomu poniżej którego konstrukcja ma się zawalić" },
+"status_text_counter" : 
+	{
+      "direction" : 0,
+      "init" : 0.0,
+      "maxValue" : 2.0,
+      "minValue" : 0.0,
+      "speed" : 1.0
+   },
+"victoryLine" : 
+	{
+		"color" : { "a" : 175, "b" : 235, "g" : 41, "r" : 70},
+		"position":{"x":0,"y": 0},
+		"texCorner":{"x": 0.0, "y": 0.0},
+		"texSize":{"x": 1.0, "y": 1.0},
+		"texDimensions":{"x": 1.0, "y": 1.0},
+		"size": {"x": 400, "y": 2},
+		"scale": 1.0
+	}
+}

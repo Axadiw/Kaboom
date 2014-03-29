@@ -1,0 +1,17 @@
+{
+   "font" : {
+      "angle" : 0.0,
+      "color" : {
+         "a" : 255,
+         "b" : 0,
+         "g" : 0,
+         "r" : 255
+      },
+      "position" : {
+         "x" : 1.0,
+         "y" : 2.0
+      },
+      "scale" : 10.0,
+      "text" : "Tekst do wypisania"
+   }
+}

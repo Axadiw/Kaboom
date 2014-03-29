@@ -1,0 +1,25 @@
+{
+   "testBMP" : 
+	{
+		"position":{"x":-100,"y": 0},
+		"size":{"x": 100, "y": 100},
+		"texCorner":{"x": 0.0, "y": 0.0},
+		"scale": 1.2,
+		"texSize":{"x": 512.0, "y": 512.0}			
+	},
+   "testPNG" : 
+	{
+		"position":{"x":0,"y": 0},
+		"size":{"x": 100, "y": 100},
+		"texCorner":{"x": 0.0, "y": 0.0},
+		"texSize":{"x": 512.0, "y": 512.0}
+	},
+   "testJPG" : 
+	{
+		"position":{"x":100,"y": 0},
+		"size":{"x": 100, "y": 100},
+		"texCorner":{"x": 0.0, "y": 0.0},
+		"scale": 0.8,
+		"texSize":{"x": 512.0, "y": 512.0}			
+	}
+}

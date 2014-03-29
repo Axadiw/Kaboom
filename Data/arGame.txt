@@ -1,0 +1,98 @@
+{
+"defaultScreenResolution": 0, // LOW
+"defaultCameraQuality": 1, // MEDIUM
+"screenFramerate" : 60,
+"lowScreenResolution": {"x": 1280, "y": 720},
+"mediumScreenResolution": {"x": 1366, "y": 768},
+"highScreenResolution": {"x": 1920, "y": 1080},
+"lowCameraResolution": {"x": 320, "y": 240},
+"lowCameraFramerate" : 30,
+"mediumCameraResolution": {"x": 640, "y": 480},
+"mediumCameraFramerate" : 30,
+"highCameraResolution": {"x": 640, "y": 480},
+"highCameraFramerate" : 60,
+"defaultFullscreen": false,
+"cameraID": 0,
+"ballSpeedup" : 0.1,
+"cursorMarkerID": 27,
+"paddle1MarkerID": 7,
+"paddle2MarkerID": 27,
+"cameraImage" : 
+	{
+		"position":{"x":0,"y": 0},
+		"texCorner":{"x": 0.0, "y": 0.0},
+		"texSize":{"x": 640.0, "y": 480.0},
+		"texDimensions":{"x": 640.0, "y": 480.0},
+		"size": {"x": 354.0, "y": 265.5}
+	},
+"paddle1" : 
+	{
+		"position":{"x":0,"y": 0},
+		"texCorner":{"x": 195, "y": 2},
+		"texSize":{"x": 278.0, "y": 88.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"size": {"x": 50.0, "y": 20.0}
+	},
+"paddle2" : 
+	{
+		"position":{"x":0,"y": 0},
+		"texCorner":{"x": 195, "y": 105},
+		"texSize":{"x": 278.0, "y": 88.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"size": {"x": 50.0, "y": 20.0}
+	},
+"crossingLine" : 
+	{
+		"position":{"x":0,"y": 0},
+		"texCorner":{"x": 7, "y": 266},
+		"texSize":{"x": 28.0, "y": 593.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 3.0
+	},
+"ball" : 
+	{
+		"position":{"x":0,"y": 0},
+		"texCorner":{"x": 7, "y": 4},
+		"texSize":{"x": 156.0, "y": 153.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 1.0
+	},
+"paddle1Points" : 
+	{
+      "color" : { "a" : 255, "r" : 60, "g" : 235, "b" : 19},
+      "position" : {"x" : -20.0,"y" : 80.0},
+      "scale" : 20.0,
+      "text" : "0"
+	},
+"paddle2Points" : 
+	{
+      "color" : { "a" : 255, "r" : 234, "g" : 13, "b" : 13},
+      "position" : {"x" : 20.0,"y" : 80.0},
+      "scale" : 20.0,
+      "text" : "0"
+	},
+"defaultBallVelocity": {"x": 240.0, "y": 100.0},
+"pointLimit" : 10,
+"victoryTextCounter" : 
+	{
+      "direction" : 0,
+      "init" : 0.0,
+      "maxValue" : 5.0,
+      "minValue" : 0.0,
+      "speed" : 1.0
+   },
+"paddle2WonText" : 
+	{     
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : 0.0,"y" : 0.0},
+      "scale" : 30.0,
+      "text" : "Wygrał czerwony!"
+	},
+"paddle1WonText" : 
+	{     
+      "color" : { "a" : 255, "b" : 0, "g" : 255, "r" : 0},
+      "position" : {"x" : 0.0,"y" : 0.0},
+      "scale" : 30.0,
+      "text" : "Wygrał zielony!"
+	}
+}

@@ -1,0 +1,5 @@
+{
+   "cameraQuality" : 2,
+   "fullscreen" : false,
+   "screenQuality" : 1
+}

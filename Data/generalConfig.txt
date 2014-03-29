@@ -1,0 +1,24 @@
+{
+"defaultScreenResolution": 0, // LOW
+"defaultCameraQuality": 1, // MEDIUM
+"screenFramerate" : 30,
+"lowScreenResolution": {"x": 1280, "y": 720},
+"mediumScreenResolution": {"x": 1366, "y": 768},
+"highScreenResolution": {"x": 1024, "y": 600},
+"lowCameraResolution": {"x": 320, "y": 240},
+"lowCameraFramerate" : 30,
+"mediumCameraResolution": {"x": 640, "y": 480},
+"mediumCameraFramerate" : 30,
+"highCameraResolution": {"x": 640, "y": 480},
+"highCameraFramerate" : 60,
+"defaultFullscreen": false,
+"cameraID": 0,
+"cursorMarkerID": 27,
+"physicScale": 10.0,
+"explode_strength": 1000.0,
+"explode_radius": 4.0,
+"destroy_radius": 0.0,
+"gravity": {"x": 0.0, "y": -5.0},
+"physics_quality": {"x": 2.0, "y": 6.0},
+"ground_level": 0.0
+}

@@ -1,0 +1,25 @@
+{
+  "sprite" : 
+	{
+		"texCorner":{"x": 0.0, "y": 43.0},
+		"texSize":{"x": 45.0, "y": 45.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale" : 1.0
+	},
+	"colorPairsNum" : 1,
+	"color_pair_0":
+	{
+		"middlePoint": 0.25,
+		"startColor" : { "r" : 255, "g" : 255, "b" : 255, "a" : 255},
+		"middleColor" : { "r" : 255, "g" : 252, "b" : 117, "a" : 200},
+		"endColor" : { "r" : 254, "g" : 11, "b" : 0, "a" : 0}
+	},
+	"reservreParticles": 1000000,
+	"maximumAge" : 1.0,
+	"friction" : 0.99,
+	"angle_range": { "x": 0.0, "y": 360.0},
+	"gravity" : { "x": 0.0, "y": 6.0},
+	"startingVelocity" : { "x": 5.0, "y": 60.0},
+	"maximum_inactive_particles" : 10000,
+	"defaultAmount": 500
+}

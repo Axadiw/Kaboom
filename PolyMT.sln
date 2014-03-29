@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArEngine", "ArEngine\ArEngine\ArEngine.vcxproj", "{3305121C-CA02-4FAF-A3C7-AB8FFD185BA9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "Engine\Engine\Engine.vcxproj", "{B8FBDB31-1A87-45E0-9209-541641D71DB1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EngineTests", "EngineTests\EngineTests\EngineTests.vcxproj", "{C8D3D7B1-80AA-491C-AB77-97E30DBF5CAC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B8FBDB31-1A87-45E0-9209-541641D71DB1} = {B8FBDB31-1A87-45E0-9209-541641D71DB1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game", "Game\Game\Game.vcxproj", "{AE011F2C-D233-4C59-892F-517D9663A308}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3305121C-CA02-4FAF-A3C7-AB8FFD185BA9} = {3305121C-CA02-4FAF-A3C7-AB8FFD185BA9}
+		{B8FBDB31-1A87-45E0-9209-541641D71DB1} = {B8FBDB31-1A87-45E0-9209-541641D71DB1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArGame", "ArGame\ArGame\ArGame.vcxproj", "{03AA6217-73B8-4DE0-855B-4915DA15FF9D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3305121C-CA02-4FAF-A3C7-AB8FFD185BA9} = {3305121C-CA02-4FAF-A3C7-AB8FFD185BA9}
+		{B8FBDB31-1A87-45E0-9209-541641D71DB1} = {B8FBDB31-1A87-45E0-9209-541641D71DB1}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3305121C-CA02-4FAF-A3C7-AB8FFD185BA9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3305121C-CA02-4FAF-A3C7-AB8FFD185BA9}.Debug|Win32.Build.0 = Debug|Win32
+		{3305121C-CA02-4FAF-A3C7-AB8FFD185BA9}.Release|Win32.ActiveCfg = Release|Win32
+		{3305121C-CA02-4FAF-A3C7-AB8FFD185BA9}.Release|Win32.Build.0 = Release|Win32
+		{B8FBDB31-1A87-45E0-9209-541641D71DB1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B8FBDB31-1A87-45E0-9209-541641D71DB1}.Debug|Win32.Build.0 = Debug|Win32
+		{B8FBDB31-1A87-45E0-9209-541641D71DB1}.Release|Win32.ActiveCfg = Release|Win32
+		{B8FBDB31-1A87-45E0-9209-541641D71DB1}.Release|Win32.Build.0 = Release|Win32
+		{C8D3D7B1-80AA-491C-AB77-97E30DBF5CAC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C8D3D7B1-80AA-491C-AB77-97E30DBF5CAC}.Debug|Win32.Build.0 = Debug|Win32
+		{C8D3D7B1-80AA-491C-AB77-97E30DBF5CAC}.Release|Win32.ActiveCfg = Release|Win32
+		{C8D3D7B1-80AA-491C-AB77-97E30DBF5CAC}.Release|Win32.Build.0 = Release|Win32
+		{AE011F2C-D233-4C59-892F-517D9663A308}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AE011F2C-D233-4C59-892F-517D9663A308}.Debug|Win32.Build.0 = Debug|Win32
+		{AE011F2C-D233-4C59-892F-517D9663A308}.Release|Win32.ActiveCfg = Release|Win32
+		{AE011F2C-D233-4C59-892F-517D9663A308}.Release|Win32.Build.0 = Release|Win32
+		{03AA6217-73B8-4DE0-855B-4915DA15FF9D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{03AA6217-73B8-4DE0-855B-4915DA15FF9D}.Debug|Win32.Build.0 = Debug|Win32
+		{03AA6217-73B8-4DE0-855B-4915DA15FF9D}.Release|Win32.ActiveCfg = Release|Win32
+		{03AA6217-73B8-4DE0-855B-4915DA15FF9D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		AMDCaProjectFile = C:\PolyMT\ARLib\CodeAnalyst\PolyMT.caw
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

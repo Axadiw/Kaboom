@@ -1,0 +1,47 @@
+{
+   "BOOLexist1" : true,
+   "BOOLexist2" : {
+      "exist2" : true
+   },
+   "BOOLexist3" : {
+      "exist3" : {
+         "exists3" : true
+      }
+   },
+   "DOUBLEexist1" : 64.0,
+   "DOUBLEexist2" : {
+      "exist2" : 65.0
+   },
+   "DOUBLEexist3" : {
+      "exist3" : {
+         "exists3" : 66.0
+      }
+   },
+   "FLOATexist1" : 32.0,
+   "FLOATexist2" : {
+      "exist2" : 33.0
+   },
+   "FLOATexist3" : {
+      "exist3" : {
+         "exists3" : 34.0
+      }
+   },
+   "INTexist1" : 1,
+   "INTexist2" : {
+      "exist2" : 2
+   },
+   "INTexist3" : {
+      "exist3" : {
+         "exists3" : 3
+      }
+   },
+   "PCHARexist1" : "text1",
+   "PCHARexist2" : {
+      "exist2" : "text2"
+   },
+   "PCHARexist3" : {
+      "exist3" : {
+         "exists3" : "text3"
+      }
+   }
+}

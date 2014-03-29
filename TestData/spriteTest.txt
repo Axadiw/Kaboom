@@ -1,0 +1,34 @@
+{
+   "sprite" : {
+      "angle" : 123.0,
+      "color" : {
+         "a" : 8,
+         "b" : 7,
+         "g" : 6,
+         "r" : 5
+      },
+      "flipX" : true,
+      "flipY" : true,
+      "position" : {
+         "x" : 1.0,
+         "y" : 2.0
+      },
+      "scale" : 1.50,
+      "size" : {
+         "x" : 2.0,
+         "y" : 3.0
+      },
+      "texCorner" : {
+         "x" : 0.0,
+         "y" : 0.0
+      },
+      "texDimensions" : {
+         "x" : 1024.0,
+         "y" : 1024.0
+      },
+      "texSize" : {
+         "x" : 256.0,
+         "y" : 256.0
+      }
+   }
+}

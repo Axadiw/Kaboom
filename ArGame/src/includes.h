@@ -1,0 +1,1 @@
+#define WINDOW_NAME "Augmented Pong"

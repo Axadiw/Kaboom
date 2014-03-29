@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B8FBDB31-1A87-45E0-9209-541641D71DB1}</ProjectGuid>
+    <RootNamespace>Engine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\OpenCV\include;../../ArEngine/src;../FMOD/inc;../FREETYPE/include;../FTGL/include;../JSON/include;../SDL_image/include;../SDL/include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ReferencePath>
+    </ReferencePath>
+    <LibraryPath>../FMOD/lib;../FTGL;../SDL_image/lib;C:\PolyMT\Engine\JSON;..\SDL\lib;$(ReferencePath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\OpenCV\include\opencv;C:\OpenCV\include;../../ArEngine/src;../FMOD/inc;../FREETYPE/include;../FTGL/include;../JSON/include;../SDL_image/include;../SDL/include;$(IncludePath)</IncludePath>
+    <LibraryPath>../FMOD/lib;../FTGL;../SDL_image/lib;../JSON;../SDL/lib;$(ReferencePath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Basic\ProgressCounter.cpp" />
+    <ClCompile Include="..\src\GameEngine.cpp" />
+    <ClCompile Include="..\src\Math\Vector2.cpp" />
+    <ClCompile Include="..\src\Resources\Color.cpp" />
+    <ClCompile Include="..\src\Resources\ConfigManager.cpp" />
+    <ClCompile Include="..\src\Resources\FontManager.cpp" />
+    <ClCompile Include="..\src\Resources\ParticleSystemManager.cpp" />
+    <ClCompile Include="..\src\Resources\ParticleSystem.cpp" />
+    <ClCompile Include="..\src\Resources\Sound.cpp" />
+    <ClCompile Include="..\src\Resources\SoundManager.cpp" />
+    <ClCompile Include="..\src\Resources\Sprite.cpp" />
+    <ClCompile Include="..\src\Resources\Text.cpp" />
+    <ClCompile Include="..\src\Resources\TextureManager.cpp" />
+    <ClCompile Include="..\src\Singleton.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Basic\ProgressCounter.h" />
+    <ClInclude Include="..\src\GameEngine.h" />
+    <ClInclude Include="..\src\GameState.h" />
+    <ClInclude Include="..\src\includes.h" />
+    <ClInclude Include="..\src\Math\Vector2.h" />
+    <ClInclude Include="..\src\Resources\Color.h" />
+    <ClInclude Include="..\src\Resources\ConfigManager.h" />
+    <ClInclude Include="..\src\Resources\Font.h" />
+    <ClInclude Include="..\src\Resources\FontManager.h" />
+    <ClInclude Include="..\src\Resources\GraphicObject.h" />
+    <ClInclude Include="..\src\Resources\Particle.h" />
+    <ClInclude Include="..\src\Resources\ParticleSystemManager.h" />
+    <ClInclude Include="..\src\Resources\ParticleSystem.h" />
+    <ClInclude Include="..\src\Resources\Sound.h" />
+    <ClInclude Include="..\src\Resources\SoundManager.h" />
+    <ClInclude Include="..\src\Resources\Sprite.h" />
+    <ClInclude Include="..\src\Resources\Text.h" />
+    <ClInclude Include="..\src\Resources\Texture.h" />
+    <ClInclude Include="..\src\Resources\TextureManager.h" />
+    <ClInclude Include="..\src\Singleton.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

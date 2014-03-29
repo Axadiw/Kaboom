@@ -1,0 +1,469 @@
+{
+"cursorPosMultiplier": 1.0,
+"fullScreenPanel" : 
+	{
+		"color":{"r":0, "g":165, "b":232, "a": 255},
+		"position":{"x":0,"y": 0},
+		"size":{"x": 360, "y": 200},
+		"texCorner":{"x": 0.0, "y": 0.0},
+		"texSize":{"x": 1.0, "y": 1.0},
+		"texDimensions":{"x": 1.0, "y": 1.0}
+	},
+"gameLogo" : 
+	{
+		"scale": 1.5,
+		"position":{"x":0,"y": 30},
+		"texCorner":{"x": 0.0, "y": 0.0},
+		"texSize":{"x": 945.0, "y": 428.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0}
+	},
+"startButton" : 
+	{
+		"position":{"x":0,"y": -60},
+		"texCorner":{"x": 618.0, "y": 450.0},
+		"texSize":{"x": 310.0, "y": 102.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 2.0
+	},
+"titleBar" : 
+	{
+		"position":{"x":0,"y": 100},
+		"texCorner":{"x": 0.0, "y": 556.0},
+		"texSize":{"x": 736.0, "y": 305.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 2.0
+	},
+"blob0" : 
+	{
+		"position":{"x":0,"y": 0},
+		"texCorner":{"x": 345.0, "y": 907.0},
+		"texSize":{"x": 68.0, "y": 72.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0}
+	},
+"blob1" : 
+	{
+		"position":{"x":0,"y": 0},
+		"texCorner":{"x": 30.0, "y": 860.0},
+		"texSize":{"x": 256.0, "y": 161.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0}
+	},
+"blob2" : 
+	{
+		"position":{"x":0,"y": 0},
+		"texCorner":{"x": 503.0, "y": 873.0},
+		"texSize":{"x": 156.0, "y": 138.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0}
+	},
+"blob0_counter" : {
+      "direction" : 1,
+      "init" : 0.0,
+      "maxValue" : 3.0,
+      "minValue" : 0.0,
+      "speed" : 1.0
+   },
+"blob0_counter" : {
+      "direction" : 0,
+      "init" : 0.0,
+      "maxValue" : 1.0,
+      "minValue" : 0.0,
+      "speed" : 0.1
+   },
+"blob1_counter" : {
+      "direction" : 0,
+      "init" : 0.0,
+      "maxValue" : 1.0,
+      "minValue" : 0.0,
+      "speed" : 0.1
+   },
+"blob2_counter" : {
+      "direction" : 0,
+      "init" : -0.3,
+      "maxValue" : 1.0,
+      "minValue" : 0.0,
+      "speed" : 0.1
+   },
+"nextText" : 
+	{     
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : 0.0,"y" : -60.0},
+      "scale" : 10.0,
+      "text" : "START"
+	},
+"handSprite" : 
+	{
+		"color" : { "a" : 255, "b" : 39, "g" : 127, "r" : 255},
+		"position":{"x":0,"y": 0},
+		"texCorner":{"x": 933.0, "y": 924.0},
+		"texSize":{"x": 91.0, "y": 100.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0}
+	},
+"handRim" : 
+	{
+		"color" : { "a" : 255, "b" : 39, "g" : 127, "r" : 255},
+		"position":{"x":0,"y": 0},
+		"texCorner":{"x": 763.0, "y": 860.0},
+		"texSize":{"x": 166.0, "y": 166.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0}
+	},
+"mouseHitCounter" : 
+	{
+      "direction" : 0,
+      "init" : 0.0,
+      "maxValue" : 2.0,
+      "minValue" : 0.0,
+      "speed" : 1.0
+   },
+"playButton" : 
+	{
+		"position":{"x":0,"y": 20},
+		"texCorner":{"x": 618.0, "y": 450.0},
+		"texSize":{"x": 310.0, "y": 102.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 2.0
+	},
+"editorButton" : 
+	{
+		"position":{"x":2000,"y": -20},
+		"texCorner":{"x": 618.0, "y": 450.0},
+		"texSize":{"x": 310.0, "y": 102.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 2.0
+	},
+"optionsButton" : 
+	{
+		"position":{"x":0,"y": -20},
+		"texCorner":{"x": 618.0, "y": 450.0},
+		"texSize":{"x": 310.0, "y": 102.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 2.0
+	},
+"backLevelSelectButton" : 
+	{
+		"position":{"x":0,"y": -70},
+		"texCorner":{"x": 618.0, "y": 450.0},
+		"texSize":{"x": 310.0, "y": 102.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 2.0
+	},
+"backEditorButton" : 
+	{
+		"position":{"x":0,"y": -60},
+		"texCorner":{"x": 618.0, "y": 450.0},
+		"texSize":{"x": 310.0, "y": 102.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 2.0
+	},
+"levelSelect_level0" : 
+	{
+		"position":{"x":-100,"y": 30},
+		"texCorner":{"x": 618.0, "y": 450.0},
+		"texSize":{"x": 310.0, "y": 102.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 2.0
+	},
+"levelSelect_level1" : 
+	{
+		"position":{"x":100,"y": 30},
+		"texCorner":{"x": 618.0, "y": 450.0},
+		"texSize":{"x": 310.0, "y": 102.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 2.0
+	},
+"levelSelect_level2" : 
+	{
+		"position":{"x":-100,"y": -10},
+		"texCorner":{"x": 618.0, "y": 450.0},
+		"texSize":{"x": 310.0, "y": 102.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 2.0
+	},
+"levelSelect_level3" : 
+	{
+		"position":{"x":100,"y": -10},
+		"texCorner":{"x": 618.0, "y": 450.0},
+		"texSize":{"x": 310.0, "y": 102.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 2.0
+	},
+"levelSelect_level_text0" : 
+	{
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : -100.0,"y" : 30.0},
+      "scale" : 10.0,
+      "text" : "Level0"
+	},
+"levelSelect_level_text1" : 
+	{
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : 100.0,"y" : 30.0},
+      "scale" : 10.0,
+      "text" : "Level1"
+	},
+"levelSelect_level_text2" : 
+	{
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : -100.0,"y" : -10.0},
+      "scale" : 10.0,
+      "text" : "Level2"
+	},
+"levelSelect_level_text3" : 
+	{
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : 100.0,"y" : -10.0},
+      "scale" : 10.0,
+      "text" : "Level3"
+	},
+"next_arrow" : 
+	{
+		"position":{"x":20,"y": -40},
+		"texCorner":{"x": 880.0, "y": 612.0},
+		"texSize":{"x": 134.0, "y": 134.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 1.5
+	},
+"prev_arrow" : 
+	{
+		"position":{"x":-20,"y": -40},
+		"texCorner":{"x": 880.0, "y": 612.0},
+		"texSize":{"x": 134.0, "y": 134.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"flipX" : true,
+		"scale": 1.5
+	},
+"backOptionsButton" : 
+	{
+		"position":{"x":0,"y": -80},
+		"texCorner":{"x": 618.0, "y": 450.0},
+		"texSize":{"x": 310.0, "y": 102.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 1.0
+	},
+"backButton" : 
+	{
+		"position":{"x":0,"y": -60},
+		"texCorner":{"x": 618.0, "y": 450.0},
+		"texSize":{"x": 310.0, "y": 102.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0},
+		"scale": 2.0
+	},
+"playText" : 
+	{     
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : 0.0,"y" : 20.0},
+      "scale" : 10.0,
+      "text" : "Graj"
+	},
+"editorText" : 
+	{
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : 20000.0,"y" : -20.0},
+      "scale" : 10.0,
+      "text" : "Edytor"
+	},
+"optionsText" : 
+	{
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : 0.0,"y" : -20.0},
+      "scale" : 10.0,
+      "text" : "Opcje"
+	},
+"backLevelSelectText" : 
+	{
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : 0.0,"y" : -70.0},
+      "scale" : 10.0,
+      "text" : "Wroc"
+	},
+"backEditorText" : 
+	{
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : 0.0,"y" : -60.0},
+      "scale" : 10.0,
+      "text" : "Wroc"
+	},
+"backOptionsText" : 
+	{
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : 0.0,"y" : -80.0},
+      "scale" : 10.0,
+      "text" : "Wroc"
+	},
+"mainMenuTitleText" : 
+	{      
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : 0.0,"y" : 90.0},
+      "scale" : 10.0,
+      "text" : "Menu Glowne"
+	},
+"optionsTitleText" : 
+	{      
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : 0.0,"y" : 90.0},
+      "scale" : 10.0,
+      "text" : "Opcje"
+	},
+"editorTitleText" : 
+	{     
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : 0.0,"y" : 90.0},
+      "scale" : 10.0,
+      "text" : "Edytor"
+	},
+"levelSelectTitleText" : 
+	{      
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : 0.0,"y" : 90.0},
+      "scale" : 10.0,
+      "text" : "Wybierz poziom"
+	},
+"optionsCameraResolutionText" : 
+	{      
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : -120.0,"y" : 40.0},
+      "scale" : 10.0,
+      "text" : "Rozdzielczosc kamery:"
+	},
+"optionsCameraResolutionLowText" : 
+	{      
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : -120.0,"y" : 20.0},
+      "scale" : 8.0,
+      "text" : "Niska"
+	},	
+"optionsCameraResolutionMediumText" : 
+	{      
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : -120.0,"y" : 0.0},
+      "scale" : 8.0,
+      "text" : "Srednia"
+	},
+"optionsCameraResolutionHighText" : 
+	{      
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : -120.0,"y" : -20.0},
+      "scale" : 8.0,
+      "text" : "Wysoka"
+	},
+"optionsCameraImageText" : 
+	{      
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : 0.0,"y" : 40.0},
+      "scale" : 10.0,
+      "text" : "Obraz z kamery:"
+	},
+"optionsScreenResolutionText" : 
+	{      
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : 120.0,"y" : 40.0},
+      "scale" : 10.0,
+      "text" : "Rozdzielczosc ekranu:"
+	},
+"optionsScreenResolutionLowText" : 
+	{      
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : 120.0,"y" : 20.0},
+      "scale" : 10.0,
+      "text" : "1280x720"
+	},	
+"optionsScreenResolutionMediumText" : 
+	{      
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : 120.0,"y" : 0.0},
+      "scale" : 10.0,
+      "text" : "1366x768"
+	},
+"optionsScreenResolutionHighText" : 
+	{      
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : 120.0,"y" : -20.0},
+      "scale" : 10.0,
+      "text" : "1920x720"
+	},
+"optionsFullscreenText" : 
+	{      
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : 120.0,"y" : -40.0},
+      "scale" : 10.0,
+      "text" : "Pelny ekran:"
+	},
+"optionsFullscreenYesText" : 
+	{      
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : 95.0,"y" : -60.0},
+      "scale" : 10.0,
+      "text" : "Tak"
+	},
+"optionsFullscreenNoText" : 
+	{      
+      "color" : { "a" : 255, "b" : 0, "g" : 0, "r" : 255},
+      "position" : {"x" : 145.0,"y" : -60.0},
+      "scale" : 10.0,
+      "text" : "Nie"
+	},
+"optionsCameraResolutionLowButton" : 
+	{
+		"position":{"x":-120,"y": 20},
+		"texCorner":{"x": 618.0, "y": 450.0},
+		"texSize":{"x": 310.0, "y": 102.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0}
+	},
+"optionsCameraResolutionMediumButton" : 
+	{
+		"position":{"x":-120,"y": 0},
+		"texCorner":{"x": 618.0, "y": 450.0},
+		"texSize":{"x": 310.0, "y": 102.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0}
+	},
+"optionsCameraResolutionHighButton" : 
+	{
+		"position":{"x":-120,"y": -20},
+		"texCorner":{"x": 618.0, "y": 450.0},
+		"texSize":{"x": 310.0, "y": 102.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0}
+	},
+"optionsScreenResolutionLowButton" : 
+	{
+		"position":{"x":120,"y": 20},
+		"texCorner":{"x": 618.0, "y": 450.0},
+		"texSize":{"x": 310.0, "y": 102.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0}
+	},
+"optionsScreenResolutionMediumButton" : 
+	{
+		"position":{"x":120,"y": 0},
+		"texCorner":{"x": 618.0, "y": 450.0},
+		"texSize":{"x": 310.0, "y": 102.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0}
+	},
+"optionsScreenResolutionHighButton" : 
+	{
+		"position":{"x":120,"y": -20},
+		"texCorner":{"x": 618.0, "y": 450.0},
+		"texSize":{"x": 310.0, "y": 102.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0}
+	},
+"optionsFullscreenYesButton" : 
+	{
+		"position":{"x":95,"y": -60},
+		"texCorner":{"x": 618.0, "y": 450.0},
+		"texSize":{"x": 310.0, "y": 102.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0}
+	},
+"optionsFullscreenNoButton" : 
+	{
+		"position":{"x":145,"y": -60},
+		"texCorner":{"x": 618.0, "y": 450.0},
+		"texSize":{"x": 310.0, "y": 102.0},
+		"texDimensions":{"x": 1024.0, "y": 1024.0}
+	},
+"cameraImage" : 
+	{
+		"position":{"x":0,"y": -10},
+		"texCorner":{"x": 0.0, "y": 0.0},
+		"texSize":{"x": 640.0, "y": 480.0},
+		"texDimensions":{"x": 640.0, "y": 480.0},
+		"size": {"x": 100, "y": 75.0}
+	},
+"buttonEnabledColor": { "a" : 100, "b" : 0, "g" : 0, "r" : 255},
+"buttonSelectedColor": { "a" : 200, "b" : 29, "g" : 231, "r" : 181}
+}

@@ -1,0 +1,18 @@
+{
+   "counter" : {
+      "direction" : 0,
+      "init" : 1.0,
+      "maxValue" : 8.0,
+      "minValue" : 0.0,
+      "speed" : 2.0
+   },
+   "test" : {
+      "counter2" : {
+         "direction" : 1,
+         "init" : 2.0,
+         "maxValue" : 9.0,
+         "minValue" : 1.0,
+         "speed" : 3.0
+      }
+   }
+}
