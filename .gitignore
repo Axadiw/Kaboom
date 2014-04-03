@@ -6,3 +6,7 @@ ipch/
 ArEngine/ArEngine/Debug/
 Debug/
 *.suo
+ArEngine/ArEngine/Release/
+Engine/Engine/Release/
+Game/Game/Release/
+Release/
