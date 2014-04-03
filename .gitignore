@@ -2,3 +2,8 @@ ipch/
 *.psess
 *.opensdf
 *.sdf
+*.user
+ArEngine/ArEngine/Debug/
+Debug/
+Game/Box2D/RelWithDebInfo/
+*.suo
